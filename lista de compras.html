@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <!--<img src="Rick_and_Morty.jpg" alt="Logo da Minha Aplicação">-->
+        <title>Site.</title>
+        <!--Links para páginas ou scripts vão aqui-->
+        <!--colspan="3" faz com que as células mesclem-->
+    </head>
+    <body>
+        <header>
+            <hr>
+            <h1><big>Bem-Vindos!</big></h1>
+            <p>O tata é fota!</p>
+            <p><small>Espero que gostem!</small></p>
+            <a href="Home.html">Home</a>
+            <a href="Tarefas.html">Tarefas</a>
+            <a href="Mercadinho.html">Mercadinho</a>
+        </header>
+        <hr>
+        <main>
+            <h3>Aqui você pode se organizar melhor</h3>
+            <p></p>
+            <h4>Tabela</h4>
+            <p></p>
+            <table>
+                <tr>
+                    <th>Tarefas</th>
+                    <th>Concluido</th>
+                </tr>
+                <tr>
+                    <td>Comprar 6 pães</td>
+                    <td><input type="checkbox" id="comprapao" name="comprapao"> <label for="comprapao"></label></td>
+                </tr>
+                <tr>
+                    <td>Comprar 5 batatas</td>
+                    <td><input type="checkbox" id="comprarpaobatata" name="comprarpaobatata"> <label for="comprarpaobatata"></label></td>
+                </tr>
+                <tr>
+                    <td>Comprar presunto e mussarela</td>
+                    <td><input type="checkbox" id="comprarpresuntoemussarela" name="comprarpresuntoemussarela"> <label for="comprarpresuntoemussarela"></label></td>
+                </tr>
+                <tr>
+                    <td>Comprar 3 arroz do padre</td>
+                    <td><input type="checkbox" id="comprararrozdopadre" name="comprararrozdopadre"> <label for="comprararrozdopadre"></label></td>
+                </tr>
+                <tr>
+                    <td>Comprar 1 leite condensado</td>
+                    <td><input type="checkbox" id="comprarleitecondensado" name="comprarleitecondensado"> <label for="comprarleitecondensado"></label></td>
+                </tr>
+            </table>
+            <br>
+            
+            <p>Explore este mundo cheio de novidades!</p>
+        </main>
+        <footer>
+            <hr>
+            <p><strong>&copy: 2024 Minhas Informações.</strong>Todos os direitos
+                reservados.</p>
+        </footer>
+        <hr>
+        <!--<img src="Rick_and_Morty.jpg" alt="Logo da Minha Aplicação">-->
+
+    </body>
+</html>
